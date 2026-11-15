@@ -59,7 +59,7 @@ const API_PREFIX = '/court';
 const MAX_BODY_BYTES = 512 * 1024;
 
 /** 接口版本：客户端用它判断宿主半侧是不是旧版（旧版不会带这个字段）。 */
-const API_VERSION = 19;
+const API_VERSION = 20;
 
 /** 巡夜：每 10 分钟扫一次；阈值在 activity.js（15 分钟有动作 / 90 分钟算空转）。 */
 const WATCH_INTERVAL_MS = 10 * 60 * 1000;

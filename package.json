@@ -54,12 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<your-account>/wanxiang-hall.git"
+    "url": "git+https://github.com/hujiajunyu-lab/dsh-wanxiang-hall.git"
   },
   "bugs": {
-    "url": "https://github.com/<your-account>/wanxiang-hall/issues"
+    "url": "https://github.com/hujiajunyu-lab/dsh-wanxiang-hall/issues"
   },
-  "homepage": "https://github.com/<your-account>/wanxiang-hall#readme",
+  "homepage": "https://github.com/hujiajunyu-lab/dsh-wanxiang-hall#readme",
   "dsh": {
     "bundle": {
       "patch": [

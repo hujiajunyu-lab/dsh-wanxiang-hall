@@ -1,0 +1,79 @@
+{
+  "name": "@local/dsh-wanxiang-hall",
+  "version": "2.3.0",
+  "private": true,
+  "type": "module",
+  "description": "万象工阁：幻盏·万象幻容的交付外壳——接单台、工位、项目看板、智库；轻量组/项目组/流水线三种编制",
+  "license": "MIT",
+  "author": "幻盏 / 衍露 (Huanzhan Yanlu)",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-orchestration",
+    "multi-agent",
+    "workflow",
+    "code-review",
+    "solo-company"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./tools": "./tools.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "store.js",
+    "activity.js",
+    "context.js",
+    "ownership.js",
+    "packages.js",
+    "fork.js",
+    "brand.js",
+    "kb.js",
+    "tools.js",
+    "client.js",
+    "handoff.js",
+    "sessions.js",
+    "snapshot.js",
+    "vault.js",
+    "auth.js",
+    "checks.js",
+    "diff.js",
+    "cordis.patch.yml",
+    "presets/*.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-account>/wanxiang-hall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<your-account>/wanxiang-hall/issues"
+  },
+  "homepage": "https://github.com/<your-account>/wanxiang-hall#readme",
+  "dsh": {
+    "bundle": {
+      "patch": [
+        "./cordis.patch.yml",
+        "./presets/court.patch.yml"
+      ]
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}

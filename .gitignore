@@ -1,0 +1,29 @@
+# 依赖与产物
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+*.tgz
+
+# 运行时数据（绝不该进仓库：里面有项目状态、客户信息、会话 id）
+court.json
+court.json.*
+kb.json
+kb.json.*
+baselines/
+verifications/
+backups/
+*.log
+
+# 本地临时/残档
+*.bak
+*.corrupt.bak
+*.fixed
+*.old-*
+dev/_*
+.tmp/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

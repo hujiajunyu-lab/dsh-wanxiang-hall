@@ -1,0 +1,4 @@
+- insert:
+    - id: wanxiang-hall
+      name: '@local/dsh-wanxiang-hall'
+      config: {}

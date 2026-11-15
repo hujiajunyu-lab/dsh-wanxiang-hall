@@ -47,7 +47,7 @@
     "presets/*.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "assets/*.svg",
+    "assets/*",
     "README.zh.md",
     "CHANGELOG.md",
     "docs/*.md"

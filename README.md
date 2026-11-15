@@ -8,7 +8,7 @@
 > One person's company, five people's output.
 > A delivery org inside [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): intake → architect → review → dispatch → build → accept → deliver, with hard gates and a receipt for every hand-off.
 
-![Wanxiang Hall](assets/hero.svg)
+![Wanxiang Hall](assets/hero.png)
 
 Wanxiang Hall turns the workflow of a small software agency into agents that check each other's work, a set of gates that cannot be bypassed, and a panel that shows *who is actually working and where it is stuck*.
 

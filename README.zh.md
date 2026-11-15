@@ -5,7 +5,7 @@
 > 一个人的公司，五个人的产出。
 > A one-person agency inside [DeepSeek Harness](https://github.com/deepseek-ai): intake → architecture → review → dispatch → build → acceptance → delivery, with hard gates and a receipt for every hand-off.
 
-![万象工阁](assets/hero.svg)
+![万象工阁](assets/hero.png)
 
 万象工阁是 DeepSeek Harness（DSH）的一个插件：它把「接单、架构、评审、派工、施工、验收、交付」这套外包公司的流程，落成一组会互相把关的 Agent 岗位 + 一组不可绕过的硬闸门 + 一个能看见「谁在干活、卡在哪」的面板。
 

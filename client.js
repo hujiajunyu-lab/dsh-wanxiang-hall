@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-wanxiang-hall',
+  id: 'dsh-wanxiang-hall',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
@@ -3695,4 +3695,4 @@ window.__ModuleLoader__.load({
   },
 });
 ;
-//# sourceMappingURL=??@local/dsh-wanxiang-hall/client.js.map&rev=aaa6264ee6cb
+//# sourceMappingURL=??dsh-wanxiang-hall/client.js.map&rev=aaa6264ee6cb

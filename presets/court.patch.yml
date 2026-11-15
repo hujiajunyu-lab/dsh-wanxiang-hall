@@ -47,7 +47,7 @@
           - id: tool-ask-user
             name: '@deepseek-ai/dsh-tool-ask-user'
           - id: court-tools
-            name: '@local/dsh-wanxiang-hall/tools'
+            name: 'dsh-wanxiang-hall/tools'
 
     - id: preset-court-zhongshu
       name: '@deepseek-ai/dsh-agent-preset'
@@ -101,7 +101,7 @@
           - id: tool-ask-user
             name: '@deepseek-ai/dsh-tool-ask-user'
           - id: court-tools
-            name: '@local/dsh-wanxiang-hall/tools'
+            name: 'dsh-wanxiang-hall/tools'
 
     - id: preset-court-menxia
       name: '@deepseek-ai/dsh-agent-preset'
@@ -148,7 +148,7 @@
           - id: tool-ask-user
             name: '@deepseek-ai/dsh-tool-ask-user'
           - id: court-tools
-            name: '@local/dsh-wanxiang-hall/tools'
+            name: 'dsh-wanxiang-hall/tools'
 
     - id: preset-court-shangshu
       name: '@deepseek-ai/dsh-agent-preset'
@@ -200,7 +200,7 @@
           - id: tool-ask-user
             name: '@deepseek-ai/dsh-tool-ask-user'
           - id: court-tools
-            name: '@local/dsh-wanxiang-hall/tools'
+            name: 'dsh-wanxiang-hall/tools'
 
     - id: preset-court-executor
       name: '@deepseek-ai/dsh-agent-preset'
@@ -259,4 +259,4 @@
               fetch: true
               searchTimeoutMs: 60000
           - id: court-tools
-            name: '@local/dsh-wanxiang-hall/tools'
+            name: 'dsh-wanxiang-hall/tools'

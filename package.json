@@ -1,5 +1,5 @@
 {
-  "name": "@local/dsh-wanxiang-hall",
+  "name": "dsh-wanxiang-hall",
   "version": "2.3.0",
   "private": true,
   "type": "module",

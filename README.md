@@ -79,20 +79,39 @@
 
 ## 安装
 
-万象工阁以 DSH 插件包形式分发，宿主侧零依赖（只用 Node 内置模块）。
+万象工阁是一个 DSH 插件包，包名 `dsh-wanxiang-hall`，宿主侧零依赖（只用 Node 内置模块）。
+
+### 三条安装路线，任选一条
+
+**A. 从 npm 装**（发布后最省事，一行）
+
+```bash
+npm i dsh-wanxiang-hall --prefix <DSH_HOME>/profiles/<profile>
+```
+
+**B. 从 GitHub 直接装**（不用发 npm，npm 会帮你把仓库当 tarball 拉下来）
+
+```jsonc
+// <DSH_HOME>/profiles/<profile>/package.json
+{
+  "dependencies": { "dsh-wanxiang-hall": "github:<你的账号>/wanxiang-hall" }
+}
+```
+
+**C. 本地开发装**（改代码即时生效，改完不用重装）
 
 ```bash
 git clone <this-repo> ~/wanxiang-hall
 ```
 
-在该 DSH profile 里把它登记成一个本地插件包（形状与其它本地插件相同）：
-
 ```jsonc
 // <DSH_HOME>/profiles/<profile>/package.json
 {
-  "dependencies": { "@local/dsh-wanxiang-hall": "link:~/wanxiang-hall" }
+  "dependencies": { "dsh-wanxiang-hall": "link:~/wanxiang-hall" }
 }
 ```
+
+> **为什么本地装也能「直接用」**：DSH 从 profile 的 `node_modules` 解析插件，`link:` 会在 `node_modules/dsh-wanxiang-hall` 建一个目录联接指向仓库。npm 不是运行前提，只是「把包送到 `node_modules`」的一种运输方式。
 
 插件自带 `cordis.patch.yml` 与 `presets/court.patch.yml`，会注册：
 
@@ -102,7 +121,7 @@ git clone <this-repo> ~/wanxiang-hall
 - 一个系统提示注入（把当前项目的索引塞进上下文，order 130）；
 - 一个巡夜定时器（10 分钟一轮：判活、催办、升级）。
 
-> 版本差异提示：DSH 的插件登记方式随版本演进，如果你的版本有插件管理器，直接按本地包路径安装即可；包名固定为 `@local/dsh-wanxiang-hall`。
+> 版本差异提示：DSH 的插件登记方式随版本演进，如果你的版本有插件管理器，按包名或本地包路径安装即可。
 
 ## 数据放在哪
 

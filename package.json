@@ -1,9 +1,8 @@
 {
   "name": "dsh-wanxiang-hall",
   "version": "2.3.0",
-  "private": true,
   "type": "module",
-  "description": "万象工阁：幻盏·万象幻容的交付外壳——接单台、工位、项目看板、智库；轻量组/项目组/流水线三种编制",
+  "description": "Delivery org for DeepSeek Harness: intake, architect, review, dispatch, build, accept — three staffing shapes, 33 tools, hard gates, heartbeat from session logs, and a cross-project knowledge base. 万象工阁。",
   "license": "MIT",
   "author": "幻盏 / 衍露 (Huanzhan Yanlu)",
   "keywords": [
@@ -47,10 +46,18 @@
     "cordis.patch.yml",
     "presets/*.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "assets/*.svg",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "docs/*.md"
   ],
   "scripts": {
     "test": "node --test"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",

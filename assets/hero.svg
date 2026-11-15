@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Wanxiang Hall: intake, architect, review, dispatch, build, accept — a delivery org inside DeepSeek Harness">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="0.55" stop-color="#0e1524"/>
+      <stop offset="1" stop-color="#131a2c"/>
+    </linearGradient>
+    <linearGradient id="live" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b8def"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3752"/>
+      <stop offset="1" stop-color="#1a2338"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <g opacity="0.5" stroke="#1b2437" stroke-width="1">
+    <path d="M0 300 H1280 M0 340 H1280"/>
+  </g>
+
+  <!-- header -->
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="56" y="66" fill="#e8eefc" font-size="30" font-weight="700" letter-spacing="0.5">WANXIANG HALL</text>
+    <text x="56" y="66" dx="252" fill="#4a5a7a" font-size="13" letter-spacing="3">万象工阁</text>
+    <text x="56" y="96" fill="#8a9bbc" font-size="14.5">A delivery org inside DeepSeek Harness — intake to delivery, with hard gates and a receipt for every hand-off.</text>
+    <g transform="translate(1052,42)">
+      <rect x="0" y="0" width="172" height="34" rx="17" fill="rgba(91,141,239,0.12)" stroke="rgba(91,141,239,0.45)"/>
+      <text x="86" y="22" fill="#9db4e8" font-size="12.5" text-anchor="middle" letter-spacing="0.8">13 HARD GATES · 33 TOOLS</text>
+    </g>
+  </g>
+
+  <!-- pipeline -->
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <!-- stage boxes -->
+    <g>
+      <g transform="translate(56,146)">
+        <rect width="170" height="74" rx="12" fill="#111a2b" stroke="url(#edge)"/>
+        <rect width="170" height="3" rx="1.5" fill="url(#live)" opacity="0.85"/>
+        <text x="16" y="30" fill="#e8eefc" font-size="15" font-weight="600">INTAKE</text>
+        <text x="16" y="52" fill="#7f90ae" font-size="12">secretary</text>
+        <text x="16" y="68" fill="#55637e" font-size="10.5">quadrant · shape</text>
+      </g>
+      <g transform="translate(248,146)">
+        <rect width="170" height="74" rx="12" fill="#111a2b" stroke="url(#edge)"/>
+        <rect width="170" height="3" rx="1.5" fill="url(#live)" opacity="0.85"/>
+        <text x="16" y="30" fill="#e8eefc" font-size="15" font-weight="600">ARCHITECT</text>
+        <text x="16" y="52" fill="#7f90ae" font-size="12">contract</text>
+        <text x="16" y="68" fill="#55637e" font-size="10.5">budgeted doc</text>
+      </g>
+      <g transform="translate(440,146)">
+        <rect width="170" height="74" rx="12" fill="#111a2b" stroke="url(#edge)"/>
+        <rect width="170" height="3" rx="1.5" fill="#e5484d" opacity="0.85"/>
+        <text x="16" y="30" fill="#e8eefc" font-size="15" font-weight="600">REVIEW</text>
+        <text x="16" y="52" fill="#7f90ae" font-size="12">mustFix ≤ 3</text>
+        <text x="16" y="68" fill="#55637e" font-size="10.5">cap 1–2 rounds</text>
+      </g>
+      <g transform="translate(632,146)">
+        <rect width="170" height="74" rx="12" fill="#111a2b" stroke="url(#edge)"/>
+        <rect width="170" height="3" rx="1.5" fill="url(#live)" opacity="0.85"/>
+        <text x="16" y="30" fill="#e8eefc" font-size="15" font-weight="600">DISPATCH</text>
+        <text x="16" y="52" fill="#7f90ae" font-size="12">PM · packages</text>
+        <text x="16" y="68" fill="#55637e" font-size="10.5">disjoint files</text>
+      </g>
+      <g transform="translate(824,146)">
+        <rect width="170" height="74" rx="12" fill="#111a2b" stroke="url(#edge)"/>
+        <rect width="170" height="3" rx="1.5" fill="url(#live)" opacity="0.85"/>
+        <text x="16" y="30" fill="#e8eefc" font-size="15" font-weight="600">BUILD</text>
+        <text x="16" y="52" fill="#7f90ae" font-size="12">engineer</text>
+        <text x="16" y="68" fill="#55637e" font-size="10.5">owned files only</text>
+      </g>
+      <g transform="translate(1016,146)">
+        <rect width="170" height="74" rx="12" fill="#111a2b" stroke="url(#edge)"/>
+        <rect width="170" height="3" rx="1.5" fill="#30a46c" opacity="0.85"/>
+        <text x="16" y="30" fill="#e8eefc" font-size="15" font-weight="600">ACCEPT</text>
+        <text x="16" y="52" fill="#7f90ae" font-size="12">verify + audit</text>
+        <text x="16" y="68" fill="#55637e" font-size="10.5">out-of-scope? no</text>
+      </g>
+    </g>
+
+    <!-- arrows -->
+    <g fill="#3d4d6b">
+      <path d="M230 183 l10 -7 v14 z"/>
+      <path d="M422 183 l10 -7 v14 z"/>
+      <path d="M614 183 l10 -7 v14 z"/>
+      <path d="M806 183 l10 -7 v14 z"/>
+      <path d="M998 183 l10 -7 v14 z"/>
+    </g>
+
+    <!-- gate ticks -->
+    <g stroke="#e5484d" stroke-width="1.5" opacity="0.55">
+      <path d="M235 152 v-8 M235 214 v8"/>
+      <path d="M619 152 v-8 M619 214 v8"/>
+      <path d="M1003 152 v-8 M1003 214 v8"/>
+    </g>
+  </g>
+
+  <!-- shapes -->
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="56" y="268" fill="#4a5a7a" font-size="11.5" letter-spacing="2.2">THREE STAFFING SHAPES</text>
+    <g transform="translate(56,282)">
+      <rect width="230" height="40" rx="10" fill="rgba(91,141,239,0.10)" stroke="rgba(91,141,239,0.35)"/>
+      <text x="14" y="25" fill="#bcd0f7" font-size="12.5">LIGHT · 2 seats · 8h</text>
+    </g>
+    <g transform="translate(302,282)">
+      <rect width="250" height="40" rx="10" fill="rgba(124,92,255,0.10)" stroke="rgba(124,92,255,0.35)"/>
+      <text x="14" y="25" fill="#cfc4f8" font-size="12.5">PROJECT · 4 seats · 40h</text>
+    </g>
+    <g transform="translate(568,282)">
+      <rect width="236" height="40" rx="10" fill="rgba(48,163,108,0.10)" stroke="rgba(48,163,108,0.35)"/>
+      <text x="14" y="25" fill="#b3e3c9" font-size="12.5">PIPELINE · 3 seats · 1c/1r</text>
+    </g>
+    <text x="56" y="348" fill="#55637e" font-size="11.5">Heartbeat from session logs · per-document token budget · cross-project knowledge base injected at every hand-off</text>
+  </g>
+</svg>
